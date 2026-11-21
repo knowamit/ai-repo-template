@@ -1,0 +1,14 @@
+name: Bug report
+description: Something is wrong
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes: {label: What happened and what did you expect?}
+    validations: {required: true}
+  - type: textarea
+    id: repro
+    attributes: {label: Minimal steps or code to reproduce, render: text}
+  - type: input
+    id: env
+    attributes: {label: Version, OS and hardware}
